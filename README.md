@@ -1,2 +1,11 @@
-# vqcpc-gan.io
-Supplementary material for [J. Nistal, C. Aouameur, S. Lattner, and G. Richard. "VQCPC-GAN: Variable-length Adversarial Audio Synthesis using Vector-Quantized Contrastive Predictive Coding"]
+# VQCPC-GAN.io
+
+<audio controls style="width:350px">
+      <source src="https://an-1673.github.io/drumgan-audios/music_excerpts/LOOP HIP-HOP.mp3">
+</audio>
+      
+## Tittle 1
+
+## Tittle 2
+
+## Tittle 3

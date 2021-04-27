@@ -1,0 +1,59 @@
+#sonylogo {
+    /* padding: 20px; */
+    margin-top: 20px;
+    width: 100%;
+    max-width: 30vw;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+}
+
+.nine-width {
+    width: 95%;
+    height: auto;
+}
+
+audio {
+    width: 100%;
+}
+
+#logorow {
+    padding-top: 10px;
+}
+/* @media screen and (max-width: 1680px) { */
+
+/* } */
+
+/* @media screen and (max-width: 1366px) { */
+
+/* } */
+
+@media screen and (max-width: 736px) {
+
+    #sonylogo {
+	padding: 20px;
+	width: 100%;
+	max-width: 50vw;
+    }
+
+}
+
+/* dl { */
+/*     padding: 0.5em; */
+/* } */
+dt {
+    float: left;
+    clear: left;
+    /* width: 100px; */
+    padding: 0px;
+    padding-right: .5em;
+    margin: -2px;
+    /* border: 1px solid black; */
+    text-align: right;
+    font-weight: bold;
+}
+/* dt::after { */
+/*     content: ":"; */
+/* } */
