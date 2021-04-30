@@ -44,10 +44,11 @@
     <p>The examples below demonstrate the generation of tonal, single-note sounds of different instruments with VQCPC-GAN under different conditinal settings. In order to ensure a moderate loading time of this website, all files have been saved at 192kbit/s MP3.
       </p>
       <div class="align-center">
-      <a href="#random-gen" class="button alt">random generation</a>&nbsp;&nbsp;
-      <a href="#scales" class="button alt">pitch scales</a>&nbsp;&nbsp;
-      <a href="#interpolations" class="button alt">latent interpolation</a>&nbsp;&nbsp;
-      <a href="#from MIDI" class="button alt">from MIDI</a>
+      <a href="#random-gen" class="button alt">Random z</a>&nbsp;&nbsp;
+      <a href="#switch-codes" class="button alt">Fixed z, different VQCPC</a>&nbsp;&nbsp;
+      <a href="#scales" class="button alt">Pitch Scales</a>&nbsp;&nbsp;
+      <a href="#interpolations" class="button alt">Latent Interpolations</a>&nbsp;&nbsp;
+      <a href="#from MIDI" class="button alt">MIDI</a>
     </div>
   </section>
   <section>
@@ -90,7 +91,33 @@
               </ul>
                             </div>
                 </section>
-                
+    
+    <section id="two" class="wrapper style2 alt">
+        <div class="inner">
+                <a name="switch-codes"></a>
+                <h3>Switching VQCPC sequence while fixing latent z and pitch</h3>
+                <table style="width:100%">
+                  <tr>
+                    <th style="width: 16%;">duration 0.5s</th>
+                    <th style="width: 16%;">duration 1s</th>
+                    <th style="width: 16%;">duration 2s</th>
+                    <th style="width: 16%;">duration 4s</th>
+                    </tr>
+                      <tr>
+                        <td><audio controls><source src="assets/fixed_z_p_var_codes/sample_0.mp3" type="audio/mpeg"/> Your browser does not support the audio element.</audio></td>
+                        <td><audio controls><source src="assets/fixed_z_p_var_codes/sample_1.mp3" type="audio/mpeg"/> Your browser does not support the audio element.</audio></td>
+                        <td><audio controls><source src="assets/fixed_z_p_var_codes/sample_2.mp3" type="audio/mpeg"/> Your browser does not support the audio element.</audio></td>
+                        <td><audio controls><source src="assets/fixed_z_p_var_codes/sample_3.mp3" type="audio/mpeg"/> Your browser does not support the audio element.</audio></td>
+                      </tr>
+                </table>
+                </div>
+                <div class="align-center">
+                          <ul class="actions">
+                <li><a href="#up" class="button alt">Up</a></li>
+              </ul>
+                            </div>
+                </section>
+
                 <section id="two" class="wrapper style2 alt">
         <div class="inner">
                 <a name="scales"></a>
@@ -170,7 +197,7 @@
               </ul>
                             </div>
                 </section>
-                
+
                 <section id="two" class="wrapper style2 alt">
         <div class="inner">
                 <a name="interpolations"></a>
